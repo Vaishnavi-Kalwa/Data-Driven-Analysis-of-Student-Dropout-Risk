@@ -1,15 +1,15 @@
 # Data-Driven Analysis of Student Dropout Risk
-Analyzing factors affecting students dropout, enrolling, graduate and predicting Target variables using machine learning models
-# Descripition
-Collected and loaded the data from kaggle. Searched for missing values and outliers. Performed exploratory data analysis. Transformed to a new data with required feilds which affects target variable and more correlated compared to other factors. Again performed exploratory data analysis to check whether the ouliers affect the data by plotting boxplot. Plotted histogram, bar chart and pie charts. As data does not satisfy regression assumptions, proceeded to employ various machine learning models to predict whether that person is Dropped out, graduated, enrolled and fitted best model with accuracy 74.9%.
-# PowerBI
-Imported data to PowerBI desktop and transformed data with key factors affecting target variable after analyzing it from the correlation matrix employed using python and constructed some visualiztions to understand risk rate.
+Analyzed factors influencing student dropout, enrollment, and graduation status using machine learning models to predict outcomes and identify high-risk profiles.
 
+# Description 
+Collected and prepared a dataset from Kaggle, performing thorough data cleaning to address missing values and outliers. Conducted exploratory data analysis (EDA) to understand variable distributions and correlations. Selected key features influencing the target variable through correlation analysis and statistical evaluation. Due to unmet regression assumptions, employed various classification models including Decision Trees, Random Forest, and SVM, achieving a best model accuracy of 74.9%.
+
+# PowerBI
+Imported transformed data into Power BI to create interactive dashboards. Visualized key metrics and risk factors such as scholarship availability, curriculum load, and age at enrollment, supporting clearer interpretation of student dropout risks.
 # Conclusion
 
-Key factors that affecting students is scholarships, units included in curriculum are more than 10, and age. As age at enrollment high the dropout rate increases as the number of units included in a curriculum in a semester are more.
-
+The analysis identified scholarship availability, high academic load (over 10 units per semester), and older age at enrollment as key factors contributing to student dropout risk. Dropout likelihood increases with age and heavier course loads.
 # Recommendations
-** Units in curriculum should be less. And should contain some extra curricular activities.
+* Streamline curriculum by reducing the number of academic units per semester and incorporating extracurricular activities to promote balance.
 
-** Ensure that scholarships should be provided to the students.
+* Provide adequate scholarship support to ease financial burdens and improve student retention.
